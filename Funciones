@@ -1,0 +1,85 @@
+#PracticaGit
+
+Esta practica sirve paraconocerloscomandos basicos del maquetado bajo el estandar de MARKDOWN (.md),
+que nos servira para crear la documentacion de nuestros proyectos de sofware durante la formacion profesional.
+
+## 1. Titulos (HEADERS)
+
+si para la documentacion deseamos ubicar secciones de algun tema podremos utilizar estos elementos para poner 
+textos resaltados como encabezados.Estos son muy similares a las etiquetas /<H1>... /<H6> en HTML.
+
+**EJEMPLO**
+
+# titulo principal (nivel 1)
+## subtitulo de nivel 2
+### subtutulo de nivel 3
+#### subtutulo de nivel 4
+##### subtutulo de nivel 5
+###### subtutulo de nivel 6
+
+######El estandar solo te permite hasta 6 posibles titulos, a partir del septimo omitira la instruccion de maquetado.
+
+## 2. Separadores (SEPARATORS)
+Esta instruccion coloca una linea vertical entre las secciones del documento permitiendo organizar y distribuir mejor el
+contenido, y puede ser maquetado utilizando 3 guiones medios (-) continuos despues del parrafo deseado.
+
+**EJEMPLO**
+ Titulo de Seccion
+---
+Parrafo 2 Parrafo 2 Parrafo 2 Parrafo 2 Parrafo 2 Parrafo 2 Parrafo 2 Parrafo 2 Parrafo 2 Parrafo 2
+
+## 3. Parrafos (PARRAGRAPHS)
+son utilizados para presentar texto descriptivo de la documentacion de los proyectos, en el cual podremos utilizar la
+propiedad de "aling" de HTML para poder controlar la alineacion del texto.
+
+**EJEMPLO**
+Parrafo 1 en caso de no definir la alineacion estara por defecto a la izquierda Parrafo 1 en caso de no definir la 
+alineacion estara por defecto a la izquierda Parrafo 1 en caso de no definir la alineacion estara por defecto a la izquierda 
+Parrafo 1 en caso de no definir la alineacion estara por defecto a la izquierda Parrafo 1 en caso de no definir 
+Parrafo 1 en caso de no definir la alineacion estara por defecto a la izquierda la alineacion estara por defecto a la izquierda 
+Parrafo 1 en caso de no definir la alineacion estara por defecto a la izquierda Parrafo 1 en caso de no definir la 
+alineacion estara por defecto a la izquierda Parrafo 1 en caso de no definir la alineacion estara por defecto a la izquierda 
+
+
+<p align="right"> Parrafo 2 al utilizar la etiqueta p y la propiedad de alineacion align con el valor right,este
+estara alineado a la derecha Parrafo 2 al utilizar la etiqueta p y la propiedad de alineacion align con el valor right,
+este estara alineado a la derecha Parrafo 2 al utilizar la etiqueta p y la propiedad de alineacion align con el valor right,
+esteestara alineado a la derecha ParParrafo 2 al utilizar la etiqueta p y la propiedad de alineacion align con el valor right,
+esteestara alineado a la derecha rafo 2 al utilizar la etiqueta p y la propiedad de alineacion align con el valor right,este
+estara alineado a la derecha Parrafo 2 al utilizar la etiqueta p y la propiedad de alineacion align con el valor right.</p>
+
+<p align="center"> Parrafo 3 el texto estara centrado parrafo 3 el texto estara centrado parrafo 3 el texto estara centrado
+parrafo 3 el texto estara centradoparrafo 3 el texto estara centradoparrafo 3 el texto estara centradoparrafo 3 el texto estara 
+centrado parrafo 3 el texto estara centrado parrafo 3 el texto estara centradoparrafo 3 el texto estara centradoparrafo 3 el texto
+estara centrado parrafo 3 el texto estara centrado parrafo 3 el texto estara centrado parrafo 3 el texto estara centrado </p>
+
+
+<p align="justify"> algunas veces desearemos justificar el texto para presentar el texto de una manera mas organizada
+Parrafo 4 justificado algunas veces desearemos justificar el texto para presentar el texto de una manera mas organizada
+Parrafo 4 justificado algunas veces desearemos justificar el texto para presentar el texto de una manera mas organizada
+Parrafo 4 justificado algunas veces desearemos justificar el texto para presentar el texto de una manera mas organizada
+Parrafo 4 justificado algunas veces desearemos justificar el texto para presentar el texto de una manera mas organizada
+Parrafo 4 justificado algunas veces desearemos justificar el texto para presentar el texto de una manera mas organizada
+Parrafo 4 justificado </p>
+
+## 4. Texto enfatizado (BOLD, ITALIC, ITALIC/BOLD, y UNDERLINE)
+
+Tambien es posible resaltar algunas palabras importantes utilizando la estilizacion de **Letras Negritas**, para la que 
+colocaremos dos * antes y despues de la palabra a resaltar,*Letras cursivas* para lo que solo ponemos un * antes y 
+despues de las palabras, ***Letras cursivas y negritas*** colocaremos 3 * y por ultimo <ins>texto subrayado </ins> encerrando
+la frase o palabras entre la etiqueta /<ins> y la etiqueta de cierre /</ins>
+
+
+## 5. Cuadores de Codigo o Rese as (BLOCKQUDTES)
+Estos elementos son utilizados para resaltar instrucciones especificas para la instalacion, configuracion y/o inicializacion 
+del proyecto, para mostrar secciones de codigo fuente, y se maqueta utilizando el simbolo de mayor que (>) antesdel texto.
+
+**EJEMPLO**
+Para alistar las carpetas y archivos desde una terminal de comandos en el sistema operativo de windows debemos usar el comando :
+
+> c:/dir
+Despues oprimimos la tecla 'Enter'.
+
+Tambien podemos poner texto multilinea 
+
+**EJEMPLO**
